@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.left {
+    height: 100vh;
+    float: left;
+    align-items: center;
+    background: blue;
+    position: absolute;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+form {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

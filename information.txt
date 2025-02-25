@@ -1,0 +1,64 @@
+database = quizo 
+tables = registerduser , answers , questions , atttest , admin
+
+
+
+/////**********/////
+
+table registerduser 
+
+    contains 9 column 
+
+    1 = id (ai)[255]{int}
+    2 = fname [500]{varchar}
+    3 = lname [500]{varchar}
+    4 = sname [500]{varchar}
+    5 = class [255]{int}
+    6 = mobile [255]{int}
+    7 = gmail [500]{varchar}
+    8 = quizoid [255]{int}
+    9 = password [500]{varchar}
+
+
+/////*****************/////
+
+table atttest
+
+    contains 4 column
+
+    1 = id(ai)[255]{int}
+    2 = username [500]{varchar}
+    3 = questionatt [500]{varchar}
+    4 = correctans [500]{varchar}
+
+///////**************///////
+
+table admin
+    contains 3 column
+
+    1 = id(ai)[255]{int}
+    2 = username [500]{varchar}
+    3 = password [500]{varchar}
+
+///////*****************///////////////
+
+table answers
+
+    contains 3 column
+
+    1 = a_id(ai)[255]{int}
+    2 = answer[500]{varchar}
+    3 = ansid[255]{int}
+
+/////////////*************////////////
+
+table questions 
+
+    contains 3 column
+
+    1 = q_id(ai)[255]{int}
+    2 = question[500]{varchar}
+    3 = ans[255]{varchar}
+
+/////////***********////////////
+

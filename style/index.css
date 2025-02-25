@@ -1,0 +1,548 @@
+/*
+font-family: "Fredoka One", cursive;
+
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	width: 100%;
+	background: #fff;
+	animation: top-bottom 1s;
+	position: fixed;
+	height: 10vh;
+}
+
+.header h1 {
+	float: left;
+	padding: 1%;
+	border: none;
+	margin-left: 5%;
+	font-family: "Fredoka One", cursive;
+}
+
+.header h1 .e-red {
+	color: red;
+}
+
+.header ul {
+	float: right;
+	margin-right: 5%;
+	padding: 3vh;
+}
+
+.header ul li {
+	list-style: none;
+	color: green;
+	font-family: "Fredoka One", cursive;
+	font-size: 20px;
+	font-weight: 800;
+	display: inline-block;
+}
+
+.header ul li a {
+	text-decoration: none;
+	letter-spacing: 2.5px;
+	color: green;
+	font-family: "Fredoka One", cursive;
+	margin-left: 10px;
+	font-weight: 800;
+}
+
+.header img {
+	display: none;
+}
+
+#mob-menu {
+	display: none;
+}
+
+#mob-menu img {
+	display: none;
+}
+
+
+
+@media only screen and (max-width:560px) {
+
+	.header {
+		background: yellow;
+	}
+
+	.header h1 {
+		margin-top: 1.5vh;
+	}
+
+	.header ul {
+		display: none;
+	}
+
+	.header img {
+		display: flex;
+		height: 7vh;
+		width: 7vh;
+		margin-right: 5%;
+		float: right;
+		margin-top: 1.5vh;
+	}
+
+	#mob-menu {
+		height: 15vh;
+		width: 100%;
+		background: yellow;
+		text-align: center;
+		animation: top-bottom 1s;
+		position: fixed;
+	}
+
+	#mob-menu ul {
+		display: inline;
+		text-align: center;
+		margin-left: 5%;
+		float: left;
+		width: 90vh;
+	}
+
+	#mob-menu ul li {
+		color: #00fff2;
+		margin-top: .5vh;
+		cursor: pointer;
+		list-style: none;
+		font-family: "Fredoka One", cursive;
+	}
+
+	#mob-menu ul li a {
+		text-decoration: none;
+		font-family: "Fredoka One", cursive;
+		cursor: pointer;
+		color: #00fff2;
+		padding: 2%;
+	}
+
+	#mob-menu img {
+		height: 7vh;
+		width: 7vh;
+		background: yellow;
+		margin-top: 1.5vh;
+		border-radius: 50%;
+		margin-right: 5%;
+		float: right;
+		display: block;
+	}
+}
+
+@media only screen and (max-width:188px) {
+
+	.header h1 {
+		display: none;
+	}
+
+}
+
+@keyframes top-bottom {
+	0% {
+		top: -15vh;
+	}
+
+	100% {
+		top: 0vh;
+	}
+}
+
+.arrow {
+	padding: 10px;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+}
+
+.intro-div .arrow img {
+	width: 40px;
+	height: 40px;
+	transform: rotate(90deg);
+}
+
+/*there is the end of the leader */
+
+.intro-div {
+	height: 100vh;
+	width: 100%;
+	text-align: center;
+	background: #f6f4f4;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.intro-div .free {
+	height: 10vh;
+	width: 100%;
+}
+
+.intro-div .writes {
+	width: 45%;
+	float: left;
+	margin-top: 30vh;
+	text-align: center;
+	height: 30vh;
+	display: inline;
+	margin-left: 5%;
+}
+
+.intro-div .writes .line-1 {
+	height: 1px;
+	background: black;
+}
+
+.intro-div .writes p {
+	text-align: center;
+	font-family: "Fredoka One", cursive;
+
+}
+
+.intro-div .writes button {
+	height: 45px;
+	width: 230px;
+	border-radius: 30px;
+	margin-top: 2vh;
+	border: 2px solid;
+	font-family: "Fredoka One", cursive;
+}
+
+.intro-div .writes .sig {
+	border: 2px solid blue;
+	background: blue;
+}
+
+.intro-div .writes .reg {
+	border: 2px solid green;
+	background: green;
+}
+
+.intro-div .writes .sig:hover {
+	background: rgb(167, 241, 167);
+}
+
+.intro-div .writes .reg:hover {
+	background: rgb(124, 124, 243);
+}
+
+
+.intro-div .writes button a {
+	color: white;
+	font-size: 24px;
+	font-family: "Fredoka One", cursive;
+	text-decoration: none;
+}
+
+.intro-div .img {
+	width: 45%;
+	background: transparent;
+	float: right;
+	margin-left: 5%;
+
+}
+
+.intro-div .img img {
+	height: 60vh;
+	margin-top: 15vh;
+	background: transparent;
+	width: 60vh;
+}
+
+
+/*this is second section (exam)*/
+
+.exam {
+	height: 100vh;
+	width: 100%;
+	text-align: center;
+	background: #ffffff;
+}
+
+.exam .writes {
+	width: 45%;
+	float: left;
+	margin-top: 30vh;
+	text-align: center;
+	height: 30vh;
+	display: inline;
+	margin-left: 5%;
+}
+
+.exam .writes .line-1 {
+	height: 1px;
+	background: black;
+}
+
+.exam .writes p {
+	text-align: center;
+	font-family: "Fredoka One", cursive;
+
+}
+
+.exam .writes button {
+	height: 45px;
+	width: 230px;
+	border-radius: 30px;
+	margin-top: 2vh;
+	background: blue;
+	border: 2px solid blue;
+	font-family: "Fredoka One", cursive;
+}
+
+.exam .writes button a {
+	color: white;
+	font-size: 24px;
+	font-family: "Fredoka One", cursive;
+	text-decoration: none;
+}
+
+.exam .img {
+	width: 45%;
+	background: transparent;
+	float: right;
+	margin-left: 5%;
+
+}
+
+.exam .img img {
+	height: 60vh;
+	margin-top: 20vh;
+	background: transparent;
+	width: 70vh;
+}
+
+
+/*this is the sign in tab design*/
+
+.signin {
+	height: 100vh;
+	width: 100%;
+	text-align: center;
+	background: #f6f6f6;
+}
+
+.signin .center-log-in {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 45vh;
+	width: 40%;
+	border-radius: 5px;
+	border: 2px solid green;
+}
+
+.signin .center-log-in form {
+	width: 100%;
+	position: absolute;
+}
+
+.signin .center-log-in form p {
+	font-family: "Fredoka One", cursive;
+	color: green;
+	font-size: 24px;
+	letter-spacing: 2px;
+	margin-top: 7vh;
+}
+
+.signin .center-log-in form .input-in {
+	width: 80%;
+	position: relative;
+	height: 6vh;
+	padding-left: 20px;
+	font-size: 20px;
+	border-radius: 30px;
+	color: #00fff2;
+	font-family: "Fredoka One", cursive;
+	border: 2px solid #ffffff;
+	margin-bottom: 2vh;
+}
+
+.signin .center-log-in form .input-in:hover {
+	border: 2px solid green;
+	color: green;
+}
+
+.signin .center-log-in form .input-submit {
+	width: 150px;
+	height: 7vh;
+	font-size: 22px;
+	background: green;
+	cursor: pointer;
+	color: #ffffff;
+	border-radius: 30px;
+	font-family: "Fredoka One", cursive;
+	border: none;
+}
+
+.signin .center-log-in form .input-submit:hover {
+	border: 2px solid green;
+	background: #ffffff;
+	color: green;
+}
+
+/*this is for the register section*/
+
+.register {
+	height: 100vh;
+	width: 100%;
+	text-align: center;
+	background: #ffffff;
+}
+
+.register .center-log-in {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 100vh;
+	border: 2px solid green;
+	width: 40%;
+	border-radius: 5px;
+}
+
+.register .center-log-in form {
+	width: 100%;
+	position: absolute;
+}
+
+.register .center-log-in form p {
+	font-family: "Fredoka One", cursive;
+	font-size: 24px;
+	letter-spacing: 2px;
+	margin-top: 1.5vh;
+}
+
+.register .center-log-in form .input-in {
+	width: 80%;
+	position: relative;
+	height: 6vh;
+	padding-left: 20px;
+	font-size: 20px;
+	border-radius: 30px;
+	color: #00fff2;
+	font-family: "Fredoka One", cursive;
+	border: 2px solid #ffffff;
+	margin-bottom: 2vh;
+}
+
+.register .center-log-in form .input-in:hover {
+	border: 2px solid green;
+	color: green;
+}
+
+.register .center-log-in form .input-submit {
+	width: 150px;
+	height: 7vh;
+	font-size: 22px;
+	background: green;
+	cursor: pointer;
+	color: #ffffff;
+	border-radius: 30px;
+	font-family: "Fredoka One", cursive;
+	border: none;
+}
+
+.register .center-log-in form .input-submit:hover {
+	border: 2px solid green;
+	background: #ffffff;
+	color: green;
+}
+
+
+/*their is the responsible*/
+
+
+@media only screen and (max-width:1000px) {
+	.intro-div .img {
+		width: 100%;
+	}
+
+	.intro-div .img img {
+		margin-top: 5vh;
+		height: 30vh;
+		width: 30vh;
+	}
+
+	.intro-div .writes p {
+		font-size: 15px;
+	}
+
+	.intro-div .writes {
+		width: 90%;
+		margin-top: 5vh;
+	}
+
+	.exam .img {
+		display: none;
+	}
+
+	.exam .writes {
+		width: 90%;
+	}
+
+	.signin .center-log-in {
+		width: 60%;
+	}
+
+	.register .center-log-in {
+		width: 60%;
+	}
+}
+
+@media only screen and (max-width:560px) {
+	.intro-div .img img {
+		display: none;
+	}
+
+	.intro-div .writes p {
+		font-size: 18px;
+	}
+
+	.intro-div .writes {
+		margin-top: 1vh;
+	}
+
+	.intro-div .writes button {
+		width: 45%;
+	}
+
+	.signin .center-log-in {
+		width: 90%;
+	}
+
+	.register .center-log-in {
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width:400px) {
+	.intro-div .img img {
+		display: none;
+	}
+
+	.intro-div .free {
+		display: none;
+	}
+
+	.intro-div .writes {
+		margin-top: 20vh;
+	}
+
+	.intro-div .writes button {
+		width: 80%;
+	}
+}
+
+.bottom-leader {
+	width: 100%;
+	height: 10vh;
+	text-align: center;
+}
+
+.bottom-leader p {
+	font-family: "Fredoka One", cursive;
+}

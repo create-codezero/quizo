@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: monospace;
+    color: aliceblue;
+}
+
+body {
+    background: linear-gradient(27deg, #ADAEAE 50%, #C1C3C3 50%);
+}
+
+p {
+    font-size: 16px;
+    font-family: monospace;
+    color: aliceblue;
+}
+
+.button {
+    width: 180px;
+    height: 35px;
+    background: aqua;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    font-family: Segeo cursive;
+    font-size: 19px;
+    font-weight: 800;
+}
+
+img {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -225px);
+    border-radius: 50%;
+}
+
+label {
+    font-size: 16px;
+    margin-top: 10px;
+    font-family: monospace;
+    letter-spacing: 2px;
+    color: aliceblue;
+}
+
+input {
+    width: 240px;
+    font-size: 16px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: monospace;
+    height: 30px;
+}
+
+.box {
+    height: 380px;
+    border-radius: 7px;
+    width: 270px;
+    text-align: center;
+    box-shadow: #fff;
+    position: fixed;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    background: linear-gradient(27deg, #1B1C1C 50%, #1B1C1C 50%);
+}
+
+.button:hover {
+    background: white;
+    border: 2px solid aqua;
+}

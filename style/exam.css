@@ -1,0 +1,98 @@
+/*
+font-family: "Fredoka One", cursive;
+
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.free {
+    width: 100%;
+    height: 7vh;
+}
+
+.top-leader {
+    width: 100%;
+    height: 13vh;
+    position: fixed;
+    background: #ffffff;
+}
+
+.top-leader .username {
+    float: left;
+}
+
+.top-leader .btn-go-back {
+    height: 5vh;
+    margin-top: 0.1vh;
+    width: 200px;
+    border-radius: 30px;
+    background: chartreuse;
+    border: 2px solid chartreuse;
+}
+
+.top-leader .btn-go-back a {
+    text-decoration: none;
+    color: white;
+    font-family: "Fredoka One",
+        cursive;
+    font-size: 18px;
+}
+
+.main {
+    width: 80%;
+    background: #f6f4f4;
+    border-radius: 7px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    height: 75vh;
+}
+
+.main .main-in {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main .main-in a {
+    text-decoration: none;
+}
+
+.main .main-in .q-now {
+    height: 80px;
+    width: 200px;
+    background: chartreuse;
+    text-align: center;
+    margin-right: 14px;
+    border-radius: 5px;
+}
+
+.main .main-in .q-now .exam-name {
+    color: #ffffff;
+    font-family: "Fredoka One",
+        cursive;
+    margin-top: 5px;
+    font-size: 22px;
+}
+
+.main .main-in .q-now .cond-name {
+    color: yellow;
+    font-family: "Fredoka One",
+        cursive;
+    font-size: 15px;
+}
+
+.main .main-in .q-now .time {
+    color: red;
+    font-family: "Fredoka One",
+        cursive;
+    font-size: 20px;
+}

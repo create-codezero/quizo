@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.left-side-bar {
+    width: 20%;
+    background: #ffffff;
+    float: left;
+    border-right: 4px solid #009879;
+    height: 100vh;
+    position: fixed;
+    text-align: center;
+}
+
+.left-side-bar .img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    left: 50%;
+    position: relative;
+    margin-top: 2vh;
+    transform: translate(-50%);
+    background: white;
+}
+
+.left-side-bar .img img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.left-side-bar .menu {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 2vh;
+}
+
+.left-side-bar .menu p {
+    color: #009879;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Courier New', 'Courier New', Courier, monospace;
+    margin-bottom: 2vh;
+    font-size: 18px;
+}
+
+.left-side-bar .menu ul {
+    display: inline;
+    text-align: center;
+    position: relative;
+}
+
+.left-side-bar .menu ul li {
+    height: 40px;
+    width: 80%;
+    background: #009879;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 5px;
+    list-style: none;
+    position: relative;
+    text-align: center;
+    margin-bottom: 1vh;
+}
+
+.left-side-bar .menu ul li button {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background: transparent;
+    border-radius: 5px;
+    background: #009879;
+    border: none;
+}
+
+.lii:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    height: 100%;
+    width: 0;
+}
+
+.lii:hover:before {
+    width: 100%;
+}
+
+.btn:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    height: 100%;
+    width: 0;
+}
+
+.btn:hover:before {
+    width: 100%;
+}
+
+.left-side-bar .menu ul li a {
+    background: #009879;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: bold;
+    position: relative;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.left-side-bar .sign-out {
+    height: 40px;
+    width: 80%;
+    background: red;
+    border: none;
+    border-radius: 5px;
+}
+
+.left-side-bar .sign-out a {
+    text-decoration: none;
+    font-size: 22px;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+}
+
+@media only screen and (max-width:500px) {
+    .left-side-bar {
+        display: none;
+    }
+}
